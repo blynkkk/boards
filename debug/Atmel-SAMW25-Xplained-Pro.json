@@ -1,0 +1,30 @@
+{
+    "name": "Atmel SAMW25 Xplained Pro",
+    "map": {
+        "digital": {
+            "pins": {
+                "D0":  0,  "D1":  1,  "D2":  2,  "D3":  3,  "D4":  4,
+                "D5":  5,  "D6":  6,  "D7":  7,  "D8":  8,  "D9":  9
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "analog": {
+            "pins": {
+                "A0": 10, "A1": 11
+            },
+            "ops": [ "dr", "dw", "ar" ],
+            "arRange":[0, 1023]
+        },
+        "pwm": {
+            "pins": [
+                "D8", "D9"
+            ],
+            "ops": [ "aw" ],
+            "awRange":[0, 255]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 31 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}
