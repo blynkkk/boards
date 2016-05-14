@@ -17,7 +17,7 @@
             "awRange":[0, 255]
         },
         "virtual":  {
-            "pinsRange": [ 0, 64 ],
+            "pinsRange": [ 0, 127 ],
             "ops": [ "vr", "vw" ]
         }
     }
