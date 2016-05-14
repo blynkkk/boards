@@ -1,5 +1,6 @@
 {
     "name": "LightBlue Bean+",
+    "addBleWidget": true,
     "map": {
         "digital": {
             "pins": {
