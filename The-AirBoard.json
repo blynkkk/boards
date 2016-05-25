@@ -1,6 +1,5 @@
 {
     "name": "The AirBoard",
-    "addBleWidget": true,
     "map": {
         "digital": {
             "pins": {
