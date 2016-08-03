@@ -22,7 +22,7 @@
                 "0", "SDA", "5", "12", "13", "SCL", "15"
             ],
             "ops": [ "aw" ],
-            "awRange": [ 0, 255 ]
+            "awRange": [ 0, 1023 ]
         },
         "virtual":  {
             "pinsRange": [ 0, 127 ],

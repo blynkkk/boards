@@ -22,7 +22,7 @@
                 "gp0", "gp2", "gp4", "gp5", "gp7", "gp8", "gp12", "gp13", "gp14"
             ],
             "ops": [ "aw" ],
-            "awRange": [ 0, 255 ]
+            "awRange": [ 0, 1023 ]
         },
         "virtual":  {
             "pinsRange": [ 0, 127 ],
