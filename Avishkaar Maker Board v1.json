@@ -1,6 +1,6 @@
 {
 
-    "name": “Avishkaar Maker Board”,
+    "name": "Avishkaar Maker Board",
 
     "map": {
 
@@ -8,7 +8,7 @@
 
             "pins": {
 
-                “P0":  5,  “P1":  38,  “P2":  39,  “P3":  40
+                "P0":  5,  "P1":  38,  "P2":  39,  "P3":  40
             },
 
             "ops": [ "dr", "dw" ]
@@ -32,7 +32,7 @@
 
             "pins": [
 
-                “P0”, “P1”, “P2”, “P3”
+                "P0”, "P1”, "P2”, "P3”
 
             ],
 
