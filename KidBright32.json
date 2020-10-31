@@ -1,0 +1,60 @@
+{
+    "name": "KidBright32",
+    "based_on": "https://www.kid-bright.org/",
+    "map": {
+        "digital": {
+            "pins": {
+                "OUT1": 26,
+                "OUT2": 27,
+                "IN1": 32,
+                "IN2": 33,
+                "IN3": 34,
+                "IN4": 35,
+                "USB": 25,
+                "SW1": 16,
+                "SW2": 14,
+                "BT LED": 17,
+                "WIFI LED": 2,
+                "NTP LED": 15,
+                "IOT LED": 12,
+                "gp18": 18,
+                "gp19": 19,
+                "gp23": 23
+            },
+            "ops": [
+                "dr",
+                "dw"
+            ]
+        },
+        "analog": {
+            "pins": {},
+            "ops": [
+                "ar"
+            ],
+            "arRange": [
+                0,
+                1023
+            ]
+        },
+        "pwm": {
+            "pins": [],
+            "ops": [
+                "aw"
+            ],
+            "awRange": [
+                0,
+                1023
+            ]
+        },
+        "virtual": {
+            "pinsRange": [
+                0,
+                255
+            ],
+            "ops": [
+                "vr",
+                "vw"
+            ]
+        }
+    }
+}
